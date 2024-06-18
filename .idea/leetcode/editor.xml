@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/array/src/leetcode/editor/cn/ID59SpiralMatrixIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ID59SpiralMatrixIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn59" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID59SpiralMatrixIi.java" />
+              <option name="titleSlug" value="spiral-matrix-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID1TwoSum .java">
           <value>
             <LeetcodeEditor>
@@ -25,6 +36,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID203RemoveLinkedListElements.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ID203RemoveLinkedListElements.md" />
+              <option name="frontendQuestionId" value="leetcode.cn203" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID203RemoveLinkedListElements.java" />
+              <option name="titleSlug" value="remove-linked-list-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID206ReverseLinkedList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ID206ReverseLinkedList.md" />
+              <option name="frontendQuestionId" value="leetcode.cn206" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID206ReverseLinkedList.java" />
+              <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID209MinimumSizeSubarraySum.java">
           <value>
             <LeetcodeEditor>
@@ -33,6 +66,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID209MinimumSizeSubarraySum.java" />
               <option name="titleSlug" value="minimum-size-subarray-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID24SwapNodesInPairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ID24SwapNodesInPairs.md" />
+              <option name="frontendQuestionId" value="leetcode.cn24" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID24SwapNodesInPairs.java" />
+              <option name="titleSlug" value="swap-nodes-in-pairs" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -69,6 +113,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID59SpiralMatrixIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ID59SpiralMatrixIi.md" />
+              <option name="frontendQuestionId" value="leetcode.cn59" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID59SpiralMatrixIi.java" />
+              <option name="titleSlug" value="spiral-matrix-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID5LongestPalindromicSubstring .java">
           <value>
             <LeetcodeEditor>
@@ -88,6 +143,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID704BinarySearch.java" />
               <option name="titleSlug" value="binary-search" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/ID707DesignLinkedList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ID707DesignLinkedList.md" />
+              <option name="frontendQuestionId" value="leetcode.cn707" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/ID707DesignLinkedList.java" />
+              <option name="titleSlug" value="design-linked-list" />
             </LeetcodeEditor>
           </value>
         </entry>
