@@ -16,37 +16,54 @@ public class ID24SwapNodesInPairs {
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode() {}
-     * ListNode(int val) { this.val = val; }
-     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
-     * cur, next,
-     * next, cur, tmp
-     */
+
     class Solution {
+//        public ListNode swapPairs(ListNode head) {
+//            if (head == null || head.next == null) {
+//                return head;
+//            }
+//            ListNode newHead = head.next;
+//
+//            ListNode cur = head;
+//            ListNode next = cur.next;
+//            cur = next;
+//
+//            //  cur, next, group2_first
+//            //  next, cur, group2_first
+//            while (cur != null && next != null) {
+//                ListNode group2_first = next.next;
+//                next.next = cur;
+//                cur.next = group2_first;
+//
+//                cur = group2_first;
+//                if (cur == null) {
+//                    break;
+//                }
+//                next = cur.next;
+//            }
+//            return newHead;
+//        }
+
+        //引入虚节点处理头节点，非常好用
         public ListNode swapPairs(ListNode head) {
             if (head == null || head.next == null) {
                 return head;
             }
+            ListNode dummy = new ListNode(-1, head);
 
-            //cur , next, temp
-            ListNode cur = head;
-            ListNode newHead = head.next;
-            ListNode next = cur.next;
-            while (cur != null && next != null) {
-                ListNode group2_first = next.next;
-                ListNode temp = cur.next.next;
-                cur.next.next = cur;
-                cur.next = temp;
+            ListNode cur = dummy;
+//            cur, next1,next2, temp
+            while (cur.next != null && cur.next.next != null) {
+                ListNode next1 = cur.next;
+                ListNode next2 = next1.next;
+                ListNode temp = next2.next;
 
-                cur = temp;
+                next2.next = next1;
+                next1.next = temp;
+                cur.next = next2;
+                cur = next1;
             }
-            return newHead;
+            return dummy.next;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
